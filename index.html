@@ -10,13 +10,16 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+
 </head>
 <body>
-<section class="note">
+<p id="idname" > </p>
     <div class="h1" id="">
         <h1 class="animate__animated animate__tada  " > Piano Simple </h1>
         <h2 id="note">&nbsp</h2>
     </div>
+<input type="text"  id="manhinh" style="width: 300px; visibility: hidden">
+<button class="shownote" onclick="showKey()">ShowNote</button>
     <div class="keys">
     <div id="buttonA" class="key1">
         <div  data-key="65" class="key" data-note="C">A</div>
@@ -28,7 +31,7 @@
             <div data-key="83" class="key" data-note="D">S</div>
     </div>
         <div id="buttonE" class="key12">
-<div data-key="69" class="key-black" data-note="D#">E</div>
+            <div data-key="69" class="key-black" data-note="D#">E</div>
         </div>
     <div id="buttonD" class="key3">
         <div data-key="68" class="key" data-note="E">D</div>
@@ -37,13 +40,13 @@
         <div data-key="70" class="key" data-note="F">F</div>
     </div>
         <div id="buttonT" class="key13">
-<div data-key="84" class="key-black" data-note="F#">T</div>
+            <div data-key="84" class="key-black" data-note="F#">T</div>
         </div>
     <div id="buttonG" class="key5">
         <div data-key="71" class="key" data-note="G">G</div>
     </div>
         <div id="buttonY" class="key14">
-<div data-key="89" class="key-black" data-note="G#">Y</div>
+            <div data-key="89" class="key-black" data-note="G#">Y</div>
         </div>
     <div id="buttonH" class="key6">
         <div data-key="72" class="key" data-note="A">H</div>
@@ -70,7 +73,6 @@
         <div data-key="186" class="key" data-note="E">;</div>
     </div>
     </div>
-</section>
 
 <audio data-key="65" src="http://carolinegabriel.com/demo/js-keyboard/sounds/040.wav"></audio>
 <audio data-key="87" src="http://carolinegabriel.com/demo/js-keyboard/sounds/041.wav"></audio>
@@ -91,7 +93,8 @@
 <audio data-key="186" src="http://carolinegabriel.com/demo/js-keyboard/sounds/056.wav"></audio>
 <script src="casestudy1.js"></script>
 <script src="ghiam.js"></script>
-<script src="mauphimdan.js"></script>
+<script src="mauphimdan.js"> </script>
 <link rel="stylesheet" href="casesudy.css">
+<script src="login.js"></script>
 </body>
 </html>

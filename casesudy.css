@@ -27,7 +27,7 @@
 }
 
 .keys {
-    top: 50px;
+    top: 10px;
 }
 
 
@@ -242,7 +242,9 @@ h2{
     -webkit-background-clip: text;
     text-align: center;
 }
-
+.shownote{
+    margin:0
+}
 
 
 

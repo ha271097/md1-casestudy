@@ -1,3 +1,4 @@
+// Các hàm đổi màu cho từng phím đàn
 function backgroundA() {
     let colors1 = document.getElementById("buttonA");
     colors1.style.backgroundColor = "#ADFF2F";
@@ -109,6 +110,7 @@ function backgroundx() {
         colors1.style.backgroundColor="black";
     }, 200);
 }
+// Hàm để hiển thị các hàm đổi màu khi nhấn phím
 function backgroundChange(e){
     switch (e.keyCode){
         case 65:
