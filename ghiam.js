@@ -2,12 +2,11 @@
 let arrayMucsic = [];
 let count=0;
 
-    function record(key) {
-        // for(let i =0; i<arrayMucsic;i++){
-        //     arr
-    // }
+function record(key) {
     arrayMucsic.push(key);
 }
+
+
 function showKey() {
     if (count==0){
         document.getElementById("manhinh").value = arrayMucsic;
@@ -19,9 +18,10 @@ function showKey() {
         count--;
     }
 }
+
+
 let countRecord = 0;
 let timeOut;
-// window.addEventListener(, run());
 function run(i){
             const audio = document.querySelector('audio[data-key="'+arrayMucsic[i]+'"]');
             if (!audio) return;
@@ -37,7 +37,6 @@ function setTimeOutRecord(){
         countRecord++;
     }
     timeOut = setTimeout(setTimeOutRecord,300);
-
 }
 
 
